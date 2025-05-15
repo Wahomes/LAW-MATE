@@ -65,7 +65,7 @@ fun RegisterScreen(
     var showTermsDialog by remember { mutableStateOf(false) }
 
     val gradientBrush = Brush.verticalGradient(
-        colors = listOf(Color(0xFF00C6FF), Color(0xFF0072FF))
+        colors = listOf(Color(0xFF00BFA5), Color(0xFF0072FF))
     )
 
     val textFieldColors = TextFieldDefaults.colors(
